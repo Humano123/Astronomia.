@@ -29,7 +29,7 @@ main{
     flex-direction: column;
     align-items: center;
 }
-section{
+.section2{
     background-color: rgb(210, 153, 219);
     padding-top: 10px;
     margin-top: 10px;
@@ -40,7 +40,7 @@ section{
     height: 200px;
     box-shadow: 6px 9px 25px black;
 }
-a{
+.a2{
     color: var(--txt);
     font-size: 40px;
     background-color: chartreuse;
@@ -49,11 +49,78 @@ a{
     padding-right: 50px;
     padding-left: 50px;
 }
-a:hover{
+.a2:hover{
     color: rgb(77, 13, 160);
     background-color: rgb(255, 255, 255);
 }
 img{
     border-radius: 1020px;
     align-items: center;
+}
+.foguete{
+    border-radius: 0;
+    position: sticky;
+    bottom: 30px;
+    margin-left: 1200px;
+    width: 300px;
+    height: 400px;
+}
+.chao{
+    border-radius: 0;
+    width: 2003px;
+}
+.Rotation{
+    animation: Rotation 50s linear infinite;
+    margin-left: 1600px;
+}
+@keyframes Rotation{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.Com{
+    animation: Rotation 10000s linear infinite;
+    background-color: darkgrey;
+    opacity: 0.5;
+}
+@keyframes Rotation{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.Pzin{
+    color: rgb(255, 255, 255);
+}
+.be{
+    color: brown;
+}
+.buttons{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: xx-large;
+}
+.buttons:hover{
+    cursor: pointer;
+}
+.mostra{
+    color: var(--txt);
+    font-size: 40px;
+    background-color: rgb(25, 0, 255);
+    border-radius: 0;
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+.mostra:hover{
+    color: rgb(77, 13, 160);
+    background-color: rgb(255, 0, 0);
+    opacity: 0.5;
 }
